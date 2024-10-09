@@ -22,10 +22,15 @@ Routing convention:
 - Every file that corresponds to a route must be named page.js or page.tsx
 - Every folder corresponds to a path segment in the browser URL
 
-Dynamic route:
+✨ **Dynamic route:** ✨ 
+![Alt text](Readme-asset/dyna.png)
 
-Nested Dynamic route:
+✨ __Nested Dynamic route:__ ✨ 
 ![Alt text](Readme-asset/dynamic.png)
 
-Catch-all segments:
+✨ **Catch-all segments:** ✨ 
 ![Alt text](Readme-asset/Catch-all.png)
+
+Not found page:
+- File name should be not-found.js in the app folder 
+- follow the product page with not-found.js file
