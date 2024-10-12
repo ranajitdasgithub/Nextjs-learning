@@ -23,6 +23,7 @@ Routing convention:
 - Every folder corresponds to a path segment in the browser URL
 
 ✨ **Dynamic route:** ✨ 
+
 ![Alt text](Readme-asset/dyna.png)
 
 ✨ __Nested Dynamic route:__ ✨ 
@@ -34,3 +35,10 @@ Routing convention:
 Not found page:
 - File name should be not-found.js in the app folder 
 - follow the product page with not-found.js file
+
+File Colocation:
+
+Private folder:
+- A private folder indicates that it is a private implementation detail and should not be considered by the routing system
+- The folder and all its subfolders are excluded from routing
+- Prefix the folder name with an underscore
