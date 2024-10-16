@@ -57,5 +57,11 @@ Register
 Login 
 Forget password
 
+For auth route add the auth folder in parentheses(auth)
+And url will not include /auth it will be /login, /register, /forget-password
+
+Layout:
+- 
+
 
 
