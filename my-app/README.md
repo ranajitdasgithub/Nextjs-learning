@@ -39,9 +39,23 @@ Not found page:
 File Colocation:
 
 Private folder:
+- create private folder using undersore previous its folder name
+- For seperating UI logic from routing logic
+- For consistently organizing internal files across a project
+- For sorting and grouping files in code editors
+- And finally, for avoiding potential naming conflicts with future Next.js file conventions
 - A private folder indicates that it is a private implementation detail and should not be considered by the routing system
 - The folder and all its subfolders are excluded from routing
 - Prefix the folder name with an underscore
+Note: add '_'= %5F to see the page in the url
+
+Route Groups:
+- Allows us to logically group our routes and project files withot affecting the URL path structure
+
+- Authentication routes
+Register
+Login 
+Forget password
 
 
-dfwdfaskfnsa
+
