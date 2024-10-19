@@ -75,3 +75,7 @@ Layout:
 - Header and footer will be there for all pages
 
 ![Alt text](Readme-asset/layout.png)
+
+Nested Layouts:
+
+![Alt text](Readme-asset/nested-layout.png)

@@ -1,4 +1,4 @@
-import { Footer1 } from "../components/footer1";
+import React from "react";
 
 export const metadata = {
   title: 'Next.js',
@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
         </main>
         <footer style={{ backgroundColor: 'ghostwhite', padding: "1rem" }}>
           <h2>Footer Page</h2>
-          <Footer1/>
         </footer>
       </body>
     </html>
