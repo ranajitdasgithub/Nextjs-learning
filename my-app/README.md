@@ -105,3 +105,13 @@ Metadata Rules: (This create browser tab title)(check product>review>page.js)
 - Both layout.js and page.js files can export metadata. If defined in a layout, it applies to all pages in that layout, but if defined in a page, it applies only to that page
 - Metadata is read in order, from the root level down to the final page level
 - When there's metadata in multiple places for the same route, they get combined, but page metadata will replace layout metadata if they have the same properties
+
+Title Metadata: (check app>layout.js page)
+
+- The filed's primary purpose is to define the document title
+- It can be either a sting or an object
+- absolute, default, template will be in the title object
+  //Default title for whole page if there is no such title
+  //Template title will add %s title from children and like for blog page 'Blog | Template title'
+  //Abosolute will be same for all page if there is no such title in the children page
+  t
