@@ -5,7 +5,7 @@ export default function ProductDetailsLayout({
     return (
         <>
             {children}
-            <h2>Features products</h2>
+            <h2>Features products (Nested layout)</h2>
             {/* Carousel here */}
         </>
     )

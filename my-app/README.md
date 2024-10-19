@@ -79,3 +79,13 @@ Layout:
 Nested Layouts:
 
 ![Alt text](Readme-asset/nested-layout.png)
+
+Route Group layout:
+
+- To organize your project in a manner that doesn't affect the URL
+- To selectively apply a layout to certain segments while leaving otheres unchanged
+- create Folder (with-auth-layout)
+- move the login and register file
+- create a layout.js file in the with-auth-layout folder
+- url would be http://localhost:3000/login or register
+
