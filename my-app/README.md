@@ -114,4 +114,17 @@ Title Metadata: (check app>layout.js page)
   //Default title for whole page if there is no such title
   //Template title will add %s title from children and like for blog page 'Blog | Template title'
   //Abosolute will be same for all page if there is no such title in the children page
-  t
+
+Link Component Navigation:
+
+- File based routing
+- We manually entered the URLs in the browser's address bar to navigate to the different routes
+  Users rely on UI element like the links to navigate
+
+  - Clicking on them or
+  - Through programmatic navigation after completing an action
+
+- similar like <a> tag but here is <Link>
+{/_ 'replace' will be back to direct homepage _/}
+  <Link href="/products/3" replace>Product 3</Link>
+<Link href={`/products/${specificProductId}`}>Product {specificProductId}</Link>
