@@ -126,5 +126,8 @@ Link Component Navigation:
 
 - similar like <a> tag but here is <Link>
 {/_ 'replace' will be back to direct homepage _/}
-  <Link href="/products/3" replace>Product 3</Link>
-<Link href={`/products/${specificProductId}`}>Product {specificProductId}</Link>
+  <!-- <Link href="/products/3" replace>Product 3</Link>
+<Link href={`/products/${specificProductId}`}>Product {specificProductId}</Link> -->
+
+Active Links:
+- 
