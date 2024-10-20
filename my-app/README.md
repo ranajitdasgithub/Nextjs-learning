@@ -130,4 +130,6 @@ Link Component Navigation:
 <Link href={`/products/${specificProductId}`}>Product {specificProductId}</Link> -->
 
 Active Links:
-- 
+- Next.js provide usePathname hook 
+- isActive for check the nav link is active or not
+- add css for clicked or not active nav link

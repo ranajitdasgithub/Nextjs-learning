@@ -1,0 +1,9 @@
+.navActive{
+    font-weight: 800;
+    color: red;
+    margin-right: 1rem;
+}
+.navUnActive{
+    color: teal;
+    margin-right: 1rem;
+}
