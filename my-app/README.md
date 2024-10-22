@@ -133,3 +133,5 @@ Active Links:
 - Next.js provide usePathname hook 
 - isActive for check the nav link is active or not
 - add css for clicked or not active nav link
+
+Navigating programmingly:
